@@ -1,0 +1,78 @@
+Comandos específicos para o GameShell
+=====================================
+
+gsh assert condition [msg]
+  verificar se a condição é verdadeira
+  se não é, mostra uma mensagem de erro
+
+gsh assert check true/false [msg]
+  verificar se o objetivo da missão atual foi alcançado
+  se o resultado não for o esperado, mostra uma mensagem
+  de erro
+
+gsh auto                              (ADMIN)
+  executar o script automático da missão atual, se existir
+
+gsh check
+  verificar se o objetivo da missão atual foi alcançado ou não
+
+gsh exit
+  sair do GameShell
+  (você pode iniciar a partir da sua missão atual executando o script
+  start.sh com a opção "-C")
+
+gsh goal [N]
+  mostrar o objetivo da missão atual
+  se N é passado, mostra o objetivo da missão N
+
+gsh goto N                            (ADMIN)
+  ir diretamente para missão N
+  (nenhuma senha não é necessária se N for a missão anterior)
+
+gsh hardreset
+  reiniciar a missão atual reinicializando o shell
+
+gsh HELP
+  esta mensagem
+
+gsh help
+  mensagem curta de ajuda
+
+gsh index
+  mostrar a lista de missões com seus status
+
+gsh log [-v]
+  mostrar o arquivo de log dos comandos gsh
+
+gsh pcm
+  mostrar o número da missão atual
+
+gsh protect
+gsh unprotect
+  adicionar / remover proteção de diretórios do GameShell
+
+gsh reset
+  reiniciar a missão atual
+
+gsh resetstatic
+  regenerar todas as partes estáticas do mundo
+
+gsh skip                              (ADMIN)
+  desistir da missão atual e vai para a próxima
+  (nenhuma senha é necessária se a missão tiver sido feita pelo
+  menos uma vez)
+
+gsh stat
+  mostrar estatísticas simples sobre as missão completadas
+
+gsh systemconfig
+  mostrar a configuração do sistema
+
+gsh test
+  executar o script de teste da missão atual, se existir
+
+gsh version
+  mostrar a versão do GameShell
+
+gsh welcome
+  mostrar a mensagem de boas vindas
