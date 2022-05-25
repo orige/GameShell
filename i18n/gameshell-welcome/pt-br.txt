@@ -1,0 +1,23 @@
+Bem vindo ao GameShell!
+
+Utilizar e administrar um computador rodando um sistema
+operacional do tipo Unix (Linux, BSD ou macOS, por exemplo)
+requer a utilização de uma interface delinha de comando chamada
+"shell". Nesse jogo você vai aprender como utilizar o shell
+passando por várias missões que vão lhe ensinar a executar
+tarefas comuns como:
+  - criar diretórios,
+  - criar, visualizar e editar arquivos,
+  - procurar por arquivos baseando-se em algum critério,
+  - executar e interromper programas,
+  - etc.
+
+Durante a sua aventura você vai precisar visitar locais,
+interagir com pessoas e encontrar vários objetos. No entanto,
+você deve ter em mente que estes são diretórios, programas e
+arquivos comuns (as vezes com conteúdo aleatório). Então, por
+exemplo:
+  - "crie uma cabana" significa que você deve criar um diretório
+    chamado "Cabana", e
+  - "coloque uma moeda no cofre" significa que você deve mover um
+    arquivo chamado "moeda" para um diretório chamado "Cofre".
