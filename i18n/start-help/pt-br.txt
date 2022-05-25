@@ -1,0 +1,26 @@
+opções:
+  -h      esta mensagem
+
+  -P      modo passaporte: pede nome / email do jogador
+  -A      modo anônimo
+  -d      modo de depuração
+  -D      modo de depuração verboso
+
+  -C      continuar no jogo atual (se relevante)
+  -R      reiniciar jogo
+
+  -L ...  configura variável LANGUAGE (ex: -L fr:it:en:pt-br)
+          Em sistemas não-GNU, configura a variável LC_MESSAGES
+          para um local válido
+
+  -B      usar bash
+  -Z      usar zsh
+
+  -q      quieto: não mostra mensagens informativas
+  -n      preto e branco: não utiliza códigos ANSI para cor
+  -c ...  passe esse comando para GameShell (para testes)
+
+As seguintes opções estão disponíveis quando GameShel está
+executando de um arquivo comprimido executável.
+  -X      somente extrair arquivo tgz
+  -K      não remover diretório temporário de GameShell ao sair
