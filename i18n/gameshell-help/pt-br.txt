@@ -1,0 +1,20 @@
+Comandos específicos para o GameShell
+=====================================
+
+gsh check
+  verifica se o objetivo da missão atual foi
+  alcançado ou não
+
+gsh exit   /   Control-d
+  sai do GameShell
+  (você pode iniciar a partir da missão atual executando
+  o GameShell com a opção "-C")
+
+gsh goal
+  mostra o objetivo da missão atual
+
+gsh help
+  pequena mensagem de ajuda
+
+gsh reset
+  reinicia a missão atual
